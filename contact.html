@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <header onload="addEventListenerToNodeList()">
+        <nav id="nav-header">
+           
+                <ul id="nav-menu">
+                    <li class="nav-buttons"><a href="./index.html">Home</a></li>
+                    <li class="nav-buttons"><a href="./about-me.html">About Me</a></li>
+                    <li class="nav-buttons"><a href="./projects.html">Projects</a></li>
+                    <li class="nav-buttons"><a href="./contact.html">Contact</a></li>
+                </ul>
+        </nav>
+
+        <button class="hamburger">
+            <div class="bar"></div>
+        </button>
+
+        <nav class="mobile-nav">
+            <a class='mobile-nav-links' href="./index.html">Home</a>
+            <a class='mobile-nav-links' href="./about-me.html">About Me</a>
+            <a class='mobile-nav-links' href="./projects.html">Projects</a>
+            <a class='mobile-nav-links' href="./contact.html">Contact</a>
+        </nav>
+    </header>
+
+
+    <div id="contact-panel">
+        <h2 class="text" id="contact-panel-header">Contact Me</h2>
+
+        <div id="contact-points">
+            <p class="text">Email: tristanfeener@gmail.com</p>
+            <p class="text">linkedin: <a id='linkedin-btn' href="https://www.linkedin.com/in/tristan-feener-8231b4221/" class="fa fa-linkedin"></a>
+            </p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

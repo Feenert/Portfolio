@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <header onload="addEventListenerToNodeList()">
+        <nav id="nav-header">
+           
+                <ul id="nav-menu">
+                    <li class="nav-buttons"><a href="./index.html">Home</a></li>
+                    <li class="nav-buttons"><a href="./about-me.html">About Me</a></li>
+                    <li class="nav-buttons"><a href="./projects.html">Projects</a></li>
+                    <li class="nav-buttons"><a href="./contact.html">Contact</a></li>
+                </ul>
+        </nav>
+
+        <button class="hamburger">
+            <div class="bar"></div>
+        </button>
+
+        <nav class="mobile-nav">
+            <a class='mobile-nav-links' href="./index.html">Home</a>
+            <a class='mobile-nav-links' href="./about-me.html">About Me</a>
+            <a class='mobile-nav-links' href="./projects.html">Projects</a>
+            <a class='mobile-nav-links' href="./contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div id="projects-panel">
+        <h2 class="text" id="project-panel-header">My Projects</h2>
+        <a href="https://feenert.github.io/Todo-List/"><img class="project-images" src="img/todo.png" alt="a todo list"></a>
+        <p class="text">A Todo list made with jQuery and styled with Bootstrap</p>
+        <span class="divider"></span>
+
+        <a href="https://feenert.github.io/weather-app-live/"><img class="project-images" src="img/weather.png" alt="Image of weather app"></a>
+        <p class="text">A weather app that displays the current weather in Phoenix, Arizona made with React, Tailwind, and weather api</p>
+        <span class="divider"></span>
+
+        <a href="https://feenert.github.io/Calculator/"><img class="project-images" src="img/calculator.png" alt="a picture of a calculator"></a>
+        <p class="text">A calculator I made while learning about grid</p>
+        <span class="divider"></span>
+        
+        <a href="https://feenert.github.io/Rock-Paper-Scissors/"><img class='project-images' src="img/rps-game.png" alt="image of rock paper scissors game"></a>
+        <p class="text">A simple rock paper scissors game I made early into my programming journey</p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
