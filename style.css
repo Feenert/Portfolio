@@ -349,5 +349,5 @@ h1, h2, p {
 
 #linkedin-btn {
   padding-left: 2rem;
-  color: var(--text-color);
+  color: var(--text-color); !important
 }
