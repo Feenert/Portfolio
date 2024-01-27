@@ -349,4 +349,7 @@ h1, h2, p {
 
 #linkedin-btn {
   padding-left: 2rem;
+    a:visited {
+        color: var(--text-color);
+    }
 }
